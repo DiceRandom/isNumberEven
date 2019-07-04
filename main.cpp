@@ -6,14 +6,14 @@
 using namespace std;
 
 int checkInt(){
-    int a, first;
+    int a, c;
     float ab;
 
     cout << "Input digit you want to check. \n";
     cin >> a;
 
-    first=a % 10;
-    ab = first;
+    c=a % 10;
+    ab = c;
     ab = ab/2;
 
     if(floor(ab) == ab){
