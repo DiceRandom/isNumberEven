@@ -5,14 +5,15 @@
 
 using namespace std;
 
-int checkInt(){
+
+int main(){
     int a, c;
     float ab;
 
     cout << "Input digit you want to check. \n";
     cin >> a;
 
-    c=a % 10;
+    c = a % 2;
     ab = c;
     ab = ab/2;
 
@@ -23,10 +24,7 @@ int checkInt(){
     }
 
     system("pause");
-    return 1;
 }
-int main()
-{ checkInt();}
 
 
 
